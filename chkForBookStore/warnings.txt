@@ -1,2 +1,4 @@
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/anemone-0.7.2/lib/anemone/page.rb:157: warning: URI.unescape is obsolete
 C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/anemone-0.7.2/lib/anemone/page.rb:157: warning: URI.escape is obsolete
+
+https://docs.ruby-lang.org/ja/2.5.0/class/URI.html#S_DECODE
