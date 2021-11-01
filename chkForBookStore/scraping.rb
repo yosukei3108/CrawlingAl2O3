@@ -31,5 +31,15 @@ Anemone.crawl(urls, :depth_limit => 0) do |anemone|
       puts "faild to find category"
     end
 
+    items = doc.xpath("//ol[@class=\"a-ordered-list a-vertical\"]/li/span/div")
+
+    items.each {|item|
+    # oreder
+    puts item.xpath("div/span/span").text
+
+    # title
+    # puts item.xpath("span/a/div").text
+    puts item.xpath("span/a/span/div/img").attribute("alt").value
+  }
   end
 end
